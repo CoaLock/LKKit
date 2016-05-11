@@ -15,9 +15,7 @@
 		3000F9191CC92EB30098CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3000F9171CC92EB30098CECC /* LaunchScreen.storyboard */; };
 		3000F9241CC92EB30098CECC /* LKKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F9231CC92EB30098CECC /* LKKitTests.m */; };
 		3000F92F1CC92EB30098CECC /* LKKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F92E1CC92EB30098CECC /* LKKitUITests.m */; };
-		3000F93F1CC92F330098CECC /* UIView+LKKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F93E1CC92F330098CECC /* UIView+LKKit.m */; };
 		30C5481F1CD247FB00C0AB31 /* LKViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */; };
-		30E9D7B51CCFD0EF00108216 /* LKAttributeMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 30E9D7B41CCFD0EF00108216 /* LKAttributeMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +52,8 @@
 		3000F92A1CC92EB30098CECC /* LKKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3000F92E1CC92EB30098CECC /* LKKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKKitUITests.m; sourceTree = "<group>"; };
 		3000F9301CC92EB30098CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3000F93D1CC92F330098CECC /* UIView+LKKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LKKit.h"; sourceTree = "<group>"; };
-		3000F93E1CC92F330098CECC /* UIView+LKKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LKKit.m"; sourceTree = "<group>"; };
 		30C5481D1CD247FB00C0AB31 /* LKViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKViewAttribute.h; sourceTree = "<group>"; };
 		30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKViewAttribute.m; sourceTree = "<group>"; };
-		30E9D7B31CCFD0EF00108216 /* LKAttributeMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKAttributeMaker.h; sourceTree = "<group>"; };
-		30E9D7B41CCFD0EF00108216 /* LKAttributeMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKAttributeMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +147,6 @@
 		3000F93C1CC92ECC0098CECC /* LKKit */ = {
 			isa = PBXGroup;
 			children = (
-				3000F93D1CC92F330098CECC /* UIView+LKKit.h */,
-				3000F93E1CC92F330098CECC /* UIView+LKKit.m */,
-				30E9D7B31CCFD0EF00108216 /* LKAttributeMaker.h */,
-				30E9D7B41CCFD0EF00108216 /* LKAttributeMaker.m */,
 				30C5481D1CD247FB00C0AB31 /* LKViewAttribute.h */,
 				30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */,
 			);
@@ -293,8 +283,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30E9D7B51CCFD0EF00108216 /* LKAttributeMaker.m in Sources */,
-				3000F93F1CC92F330098CECC /* UIView+LKKit.m in Sources */,
 				3000F9111CC92EB30098CECC /* ViewController.m in Sources */,
 				3000F90E1CC92EB30098CECC /* AppDelegate.m in Sources */,
 				3000F90B1CC92EB30098CECC /* main.m in Sources */,
