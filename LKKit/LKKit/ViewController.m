@@ -21,8 +21,11 @@
     [super viewDidLoad];
 
     
-    UIView *orangeView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 60)];
+    /**
+        设置UIView属性
+     */
     
+    UIView *orangeView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 60)];
      orangeView.lk_attribute
     .backgroundColor([UIColor redColor])
     .corner(30)
@@ -32,6 +35,9 @@
     ;
     
 
+    /**
+        设置UILabel属性     
+     */
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 200, 200, 80)];
     label.lk_attribute
     .text(@"cuilufsdai")
