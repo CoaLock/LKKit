@@ -429,7 +429,7 @@
 				DEVELOPMENT_TEAM = 7CCDF6GGY6;
 				INFOPLIST_FILE = LKKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = grass.beyondin.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondin.merchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,7 +441,7 @@
 				DEVELOPMENT_TEAM = 7CCDF6GGY6;
 				INFOPLIST_FILE = LKKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = grass.beyondin.com;
+				PRODUCT_BUNDLE_IDENTIFIER = com.beyondin.merchant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
