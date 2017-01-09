@@ -220,6 +220,7 @@
 				TargetAttributes = {
 					3000F9051CC92EB30098CECC = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7CCDF6GGY6;
 					};
 					3000F91E1CC92EB30098CECC = {
 						CreatedOnToolsVersion = 7.2;
@@ -425,9 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CCDF6GGY6;
 				INFOPLIST_FILE = LKKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cuilukai.LKKit;
+				PRODUCT_BUNDLE_IDENTIFIER = grass.beyondin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -436,9 +438,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CCDF6GGY6;
 				INFOPLIST_FILE = LKKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cuilukai.LKKit;
+				PRODUCT_BUNDLE_IDENTIFIER = grass.beyondin.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
