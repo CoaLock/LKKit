@@ -16,6 +16,7 @@
 		3000F9191CC92EB30098CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3000F9171CC92EB30098CECC /* LaunchScreen.storyboard */; };
 		3000F9241CC92EB30098CECC /* LKKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F9231CC92EB30098CECC /* LKKitTests.m */; };
 		3000F92F1CC92EB30098CECC /* LKKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F92E1CC92EB30098CECC /* LKKitUITests.m */; };
+		30AABDC91E34B4970098178F /* JenkinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30AABDC81E34B4970098178F /* JenkinPlist.plist */; };
 		30C5481F1CD247FB00C0AB31 /* LKViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		3000F92A1CC92EB30098CECC /* LKKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3000F92E1CC92EB30098CECC /* LKKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKKitUITests.m; sourceTree = "<group>"; };
 		3000F9301CC92EB30098CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30AABDC81E34B4970098178F /* JenkinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JenkinPlist.plist; sourceTree = "<group>"; };
 		30C5481D1CD247FB00C0AB31 /* LKViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKViewAttribute.h; sourceTree = "<group>"; };
 		30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKViewAttribute.m; sourceTree = "<group>"; };
 		7398690245915769654F8ACD /* Pods-LKKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKKit/Pods-LKKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				3000F9151CC92EB30098CECC /* Assets.xcassets */,
 				3000F9171CC92EB30098CECC /* LaunchScreen.storyboard */,
 				3000F91A1CC92EB30098CECC /* Info.plist */,
+				30AABDC81E34B4970098178F /* JenkinPlist.plist */,
 				3000F9091CC92EB30098CECC /* Supporting Files */,
 			);
 			path = LKKit;
@@ -287,6 +290,7 @@
 			files = (
 				3000F9191CC92EB30098CECC /* LaunchScreen.storyboard in Resources */,
 				3000F9161CC92EB30098CECC /* Assets.xcassets in Resources */,
+				30AABDC91E34B4970098178F /* JenkinPlist.plist in Resources */,
 				3000F9141CC92EB30098CECC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -58,15 +58,40 @@
     
     
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeValue) userInfo:nil repeats:YES];
+    
+
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"JenkinPlist.plist" ofType:nil];
+    
+    
+    //NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    NSDictionary *params = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    
+    
+    NSString *developerName = params[@"kDeveloperName"];
+    
+    
 }
 
 
 - (void)changeValue {
     
+    
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"JenkinPlist.plist" ofType:nil];
+    
+    
+    //NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    NSDictionary *params = [NSDictionary dictionaryWithContentsOfFile:filePath];
+    
+    
+    NSString *developerName = params[@"kDeveloperName"];
+    
     NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"kDomainName"];
     
     if (version.length > 0) {
-        _label.text = version;
+        _label.text = developerName;
     }
     
 }
