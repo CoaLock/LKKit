@@ -11,9 +11,16 @@
 
 #import "LKViewAttribute.h"
 
+
 @interface ViewController ()
 
+
+@property (nonatomic, strong) UILabel *label;
+
+
 @end
+
+
 
 @implementation ViewController
 
@@ -47,7 +54,21 @@
     .superView(self.view);
     
     
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeValue) userInfo:nil repeats:YES];
 }
+
+
+- (void)changeValue {
+    
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"kDomainName"];
+    
+    if (version.length > 0) {
+        _label.text = version;
+    }
+    
+}
+
+
 
 
 @end
