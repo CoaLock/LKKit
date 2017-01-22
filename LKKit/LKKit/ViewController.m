@@ -54,6 +54,9 @@
     .superView(self.view);
     
     
+    self.label = label;
+    
+    
     [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(changeValue) userInfo:nil repeats:YES];
 }
 
