@@ -16,6 +16,7 @@
 		3000F9191CC92EB30098CECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3000F9171CC92EB30098CECC /* LaunchScreen.storyboard */; };
 		3000F9241CC92EB30098CECC /* LKKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F9231CC92EB30098CECC /* LKKitTests.m */; };
 		3000F92F1CC92EB30098CECC /* LKKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3000F92E1CC92EB30098CECC /* LKKitUITests.m */; };
+		304135ED22DB230500F70F42 /* LKKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 304135EC22DB230400F70F42 /* LKKit.podspec */; };
 		30AABDC91E34B4970098178F /* JenkinPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30AABDC81E34B4970098178F /* JenkinPlist.plist */; };
 		30C5481F1CD247FB00C0AB31 /* LKViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		3000F92A1CC92EB30098CECC /* LKKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3000F92E1CC92EB30098CECC /* LKKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKKitUITests.m; sourceTree = "<group>"; };
 		3000F9301CC92EB30098CECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		304135EC22DB230400F70F42 /* LKKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LKKit.podspec; sourceTree = "<group>"; };
 		30AABDC81E34B4970098178F /* JenkinPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = JenkinPlist.plist; sourceTree = "<group>"; };
 		30C5481D1CD247FB00C0AB31 /* LKViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKViewAttribute.h; sourceTree = "<group>"; };
 		30C5481E1CD247FB00C0AB31 /* LKViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKViewAttribute.m; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		3000F8FD1CC92EB30098CECC = {
 			isa = PBXGroup;
 			children = (
+				304135EC22DB230400F70F42 /* LKKit.podspec */,
 				3000F9081CC92EB30098CECC /* LKKit */,
 				3000F9221CC92EB30098CECC /* LKKitTests */,
 				3000F92D1CC92EB30098CECC /* LKKitUITests */,
@@ -268,6 +271,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -290,6 +294,7 @@
 			files = (
 				3000F9191CC92EB30098CECC /* LaunchScreen.storyboard in Resources */,
 				3000F9161CC92EB30098CECC /* Assets.xcassets in Resources */,
+				304135ED22DB230500F70F42 /* LKKit.podspec in Resources */,
 				30AABDC91E34B4970098178F /* JenkinPlist.plist in Resources */,
 				3000F9141CC92EB30098CECC /* Main.storyboard in Resources */,
 			);

@@ -48,7 +48,6 @@
 /**
  *   attributes just for UILabel
  */
-
 - (LKAttributeMaker* (^) (NSString *text))text;
 
 - (LKAttributeMaker* (^) (CGFloat font))font;
@@ -65,14 +64,11 @@
 /**
  *  attributes just for UIImageView
  */
-
 - (LKAttributeMaker* (^) (UIImage *image))image;
 
 /**
  *  attributes just for UIButton
  */
-
-
 - (LKAttributeMaker* (^) (id target, SEL selector))event;
 
 - (LKAttributeMaker* (^) (UIImage *image))selectImage;
@@ -91,7 +87,6 @@
 - (LKAttributeMaker* (^) (UIColor *color))normalTitleColor;
 
 - (LKAttributeMaker* (^) (UIImage *image))normalBackgroundImage;
-
 
 
 /* UIButton

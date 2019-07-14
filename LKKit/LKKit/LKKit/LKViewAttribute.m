@@ -114,7 +114,6 @@
 /**
  *  these attributes just for UILabel
  */
-
 - (LKAttributeMaker* (^) (NSString *text))text {
 
     return  ^(NSString *text) {
@@ -156,7 +155,6 @@
         return self;
     };
 }
-
 
 - (LKAttributeMaker* (^) (NSTextAlignment textAligent))textAlignment {
     return  ^(NSTextAlignment textAlignment) {
@@ -214,7 +212,6 @@
 /**
  *  attributes just for UIImageView
  */
-
 - (LKAttributeMaker* (^) (UIImage *image))image {
 
     return  ^(UIImage *image) {
@@ -231,7 +228,6 @@
 /**
  *  attribute for UIButton
  */
-
 - (LKAttributeMaker* (^) (id target, SEL selector))event {
 
     return  ^(id target, SEL selector) {
